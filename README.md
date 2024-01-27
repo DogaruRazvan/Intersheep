@@ -1,6 +1,7 @@
 Intersheep - Internships Platform for Students
 
 Overview
+
 Intersheep is a web-based platform designed to streamline the process of finding and applying for internships for students. Built using SQL, PHP, HTML, and CSS, Intersheep provides a user-friendly interface for students to explore internship opportunities, submit applications, and manage their profiles.
 
 Features
