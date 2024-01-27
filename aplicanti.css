@@ -1,0 +1,144 @@
+body {
+    background-color: #24262b;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Jost', sans-serif;
+   
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: #24262b;
+    border-radius: 30px;
+    
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+img {
+    cursor: pointer;
+    width: 45px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 10%;
+    right: 1px;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    z-index: 9;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 500px;
+}
+
+.sub-menu {
+    background: #24262b;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.uer-info {
+    display: flex;
+    align-items: center;
+    color: #FE4E4E;
+}
+
+.uer-info img {
+    margin-right: 15px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FE4E4E;
+    margin: 12px 0px;
+}
+
+.sub-menu-link img {
+    width: 30px;
+}
+
+.sub-menu-link p {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.sub-menu-link span {
+    transition: transform 0.5s;
+}
+
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+}
+
+#applicants-table {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background: #ccc; /* culoarea gri a background-ului rotund */
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+th, td ,tr{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #FFA500; /* culoarea portocalie a liniilor care separă coloanele */
+}
+
+th {
+    background: #FE4E4E;
+    color: #24262b;
+}
+
+
+
+a {
+    color: #24262b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.mesaj{
+color:white;
+}

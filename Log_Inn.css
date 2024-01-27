@@ -1,0 +1,130 @@
+body{
+	
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: #24262b;
+}
+.main{
+	position:relative;
+	width: 350px;
+	height: 500px;
+	overflow:hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+#chk{
+	display: none;
+}
+.login{
+	position: relative;
+	width:100%;
+	height: 100%;
+}
+.labellog{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 60px;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+.mail{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #FE4E4E;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button:hover{
+	background: #dc2d2d;
+}
+.containerParola{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	display: flex;
+	margin: 20px auto;
+	margin-bottom: 5px;;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.passwordBox{
+	background: #e0dede;
+	border: none;
+	outline: none;
+}
+.eyeSee{
+	padding-left: 20px;
+}
+.forgotPass{
+	display:flex;
+	height: 20px;
+	justify-content: end;
+	margin-right:18%;
+	color: #e0dede;
+	text-decoration: none;
+	font-size:0.8em;
+}
+	
+	
+.noAcc{
+	display:flex;
+	height:20px;
+	justify-content: center;
+	margin:20px auto;
+	color: #e0dede;
+	text-decoration: none;
+	
+}
+
+.error{
+	width: 60%;
+	height: 20px;
+	background: #F2DEDE;
+	color:#A94442;
+	display: flex;
+	margin: 20px auto;
+	margin-bottom: 5px;;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+  
+
+
+
