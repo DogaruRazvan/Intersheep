@@ -53,13 +53,8 @@ Contributions are welcome! If you'd like to contribute to Intersheep, please fol
 5. Push to the branch (`git push origin feature/new-feature`).
 6. Create a new Pull Request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+Credits
+- Developed by [Dogaru Stefan-Razvan]
 
-## Credits
-- Developed by [Your Name]
-- Inspired by [mention any inspirations or similar projects]
 
----
 
-Feel free to customize this README with specific details about your project, including installation instructions, usage guidelines, and contribution guidelines.
